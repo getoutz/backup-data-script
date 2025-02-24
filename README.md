@@ -6,7 +6,7 @@ This script automates database backups using **PostgreSQL’s `pg_dump`** and op
 ---
 
 ## 📁 Configuration
-Modify the `config.ini` file before running the script.
+Modify the `config.conf` file before running the script.
 
 ### 🔹 Database Configuration
 These settings define how the database backup is created.
@@ -28,7 +28,7 @@ These settings determine whether backups are copied to a network-attached storag
 
 | Parameter        | Description                                      | Example Value |
 |-----------------|--------------------------------------------------|--------------|
-| `NAS_PATH`      | Path to NAS storage for backups                   | `Z:\\backups` |
+| `NAS_PATH`      | Path to NAS storage for backups                   | `Z:\backups` |
 | `ENABLE_NAS_COPY` | Enable or disable NAS backup (`True` or `False`) | `False` |
 
 ---
