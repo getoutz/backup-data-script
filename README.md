@@ -48,7 +48,7 @@ Define how often and in what format backups are stored.
 ### 1️⃣ Install PostgreSQL
 Ensure PostgreSQL is installed, and `pg_dump` is accessible at the specified `PG_DUMP_PATH`.
 
-### 2️⃣ Configure `config.ini`
+### 2️⃣ Configure `config.conf`
 Modify the `config.conf` file to match your database and backup preferences.
 
 ### 3️⃣ Run the Backup Script
