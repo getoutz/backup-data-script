@@ -19,7 +19,7 @@ These settings define how the database backup is created.
 | `DB_NAME`       | Name of the database to backup                        | `postgres` |
 | `DB_USER`       | Database username                                     | `postgres` |
 | `DB_PASSWORD`   | Database password                                     | `1234` |
-| `BACKUP_DIR`    | Directory where backups are stored                    | `\\backups` |
+| `BACKUP_DIR`    | Directory where backups are stored                    | `\backups` |
 
 ---
 
